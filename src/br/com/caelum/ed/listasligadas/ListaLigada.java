@@ -138,4 +138,12 @@ public class ListaLigada {
         return atual;
     }
 
+    public void copia(Object elemento) {
+
+    }
+
+    public void concatena(Object elemento) {
+        
+    }
+
 }

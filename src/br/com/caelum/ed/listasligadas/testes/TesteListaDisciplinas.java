@@ -1,14 +1,18 @@
 package br.com.caelum.ed.listasligadas.testes;
 
 import br.com.caelum.ed.listasligadas.ListaLigada;
+import br.com.caelum.ed.objetos.Disciplina;
 
-public class TesteAdicionaPorPosicao {
+/**
+ * TesteListaDisciplinas
+ */
+public class TesteListaDisciplinas {
+
     public static void main(String[] args) {
+        
+        Disciplina disciplina = new Disciplina();
+
         ListaLigada lista = new ListaLigada();
-        lista.adiciona("Rafael");
-        lista.adiciona(0, "Paulo");
-        lista.adiciona(1, "Camila");
-        System.out.println(lista);
+
     }
 }
-
