@@ -3,7 +3,7 @@
 - O coordenador do curso de Ciência da Computação deseja fazer uma lista encadeada das disciplinas que a graduação possui. Para isso, ele precisa criar um objeto "Disciplina" e criar um arquivo de testes para testar a sua lista ligada.
 
 ### Exercício 1 - Criando o objeto Disciplina
-- Um TAD (Tipo Abastrato de Dados) deve ser criado para representa o objeto Disciplina. Uma classe java chamada "Disciplina.java" é criada. Modifique a classe (presente no pacote "objetos") e implemente os seguintes métodos e propriedades:
+- Um TAD (Tipo Abastrato de Dados) deve ser criado para representar o objeto Disciplina. Uma classe java chamada "Disciplina.java" é criada. Modifique a classe (presente no pacote "objetos") e implemente os seguintes métodos e propriedades:
 
 1. nome : String
 2. objetivo : String
@@ -13,7 +13,7 @@
 5. equals(Disciplina disciplina)
 
 ### Exercício 2 - Criando uma classe de testes "TesteListaDisciplinas.java"
-- Modifique a classe **TesteListaDisciplinas.java** para que instancie objetos do tipo **Disciplina** e um objeto do tipo **ListaLigada**
+- Modifique a classe **TesteListaDisciplinas.java** para que instancie objetos do tipo **Disciplina** e um objeto do tipo **ListaLigada**.
 - Faça testes com todos os métodos da classe ListaLigada:
 
 ```
@@ -42,5 +42,5 @@ lista.copia(l);
 lista.concatena(l);
 ```
 
-### Exercício 3
+### Exercício 4
 - Modifique a classe **TesteListaDisciplinas.java** para que possa testar os novos métodos criados no exercício anterior (**copia** e **concatena**).
